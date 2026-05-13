@@ -1,6 +1,8 @@
 <template>
   <div class="p-4">
     <h2>Додати учасників</h2>
+    <h2>Додати хлопця чи дівчину</h2>
+
     <input v-model="newName" placeholder="Ім'я" />
     <select v-model="gender">
       <option value="male">Хлопець</option>
