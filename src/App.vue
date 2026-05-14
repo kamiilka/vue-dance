@@ -15,6 +15,12 @@
         </template>
       </LipstickCard>
 
+<LipstickCard :name="$t('products.berryWine')" :price="600">
+  <template #media>
+    <img src="https://placehold.co/200x200?text=Berry+Wine" alt="Berry Wine" />
+  </template>
+</LipstickCard>
+
       <LipstickCard :name="$t('products.nudePink')" :price="480" />
 
       <LipstickCard :name="$t('products.glossyShine')" :price="350">
