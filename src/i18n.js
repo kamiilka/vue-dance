@@ -9,6 +9,7 @@ const messages = {
       matteRed: "Матова червона",
       nudePink: "Нюдовий рожевий",
       glossyShine: "Глянцевий блиск",
+      berryWine: "Ягідне вино",
     },
   },
   en: {
@@ -19,6 +20,7 @@ const messages = {
       matteRed: "Matte Red",
       nudePink: "Nude Pink",
       glossyShine: "Glossy Shine",
+      berryWine: "Berry Wine",
     },
   },
 };
