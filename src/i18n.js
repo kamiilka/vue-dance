@@ -23,11 +23,11 @@ const messages = {
   },
 };
 
-const i18n = createI18n({
+export const i18n = createI18n({
   legacy: false, 
   locale: "uk", 
   fallbackLocale: "en",
   messages,
 });
 
-export default i18n;
+
