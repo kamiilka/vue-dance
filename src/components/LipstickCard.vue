@@ -8,7 +8,8 @@
     
     <div class="card-info">
       <h3>{{ name }}</h3>
-      <p>{{ price }} грн</p>
+
+      <p>{{ price }} {{ $t('currency') }}</p>
     </div>
   </div>
 </template>
